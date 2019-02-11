@@ -21,7 +21,7 @@ int main()
  }
  for(i=0;i<n;++i)
  {
- printf("%d",num[i]);
+ printf("%d\t",num[i]);
  }
 return 0;
 }
