@@ -11,8 +11,8 @@ int isLastDate(int d, int m, int y){
     if(m==2){
         if(!isLeapYear(y) && lastDate[2]==d){
             return 1;
-        }else if(isLeapYear(y) && d==29){
-            return 1;
+        }else if(isLeapYear(y)){
+            return (d==29);
         }
     }
     return (lastDate[m]==d);
